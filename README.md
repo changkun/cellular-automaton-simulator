@@ -323,7 +323,7 @@ Press `<` / `>` at runtime to cycle through presets. Each produces qualitatively
 | `spots`    | 0.035   | 0.065   | Stable circular dots                |
 | `worms`    | 0.078   | 0.061   | Squirming tendril-like structures   |
 | `waves`    | 0.014   | 0.054   | Expanding concentric rings          |
-| `bubbles`  | 0.012   | 0.05    | Negative spots (holes in substrate) |
+| `bubbles`  | 0.012   | 0.05    | Negative spots (holes in the U field) |
 
 ### Rendering
 

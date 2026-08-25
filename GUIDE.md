@@ -165,12 +165,12 @@ Discrete update (Euler forward, 5-point Laplacian):
   L(u) = u(i+1,j) + u(i−1,j) + u(i,j+1) + u(i,j−1) − 4·u(i,j)
 
 where:
-  u(i,j,t) ∈ [0,1]  — concentration of substrate species U at cell (i,j), step t
+  u(i,j,t) ∈ [0,1]  — concentration of the fed species U at cell (i,j), step t
   v(i,j,t) ∈ [0,1]  — concentration of autocatalyst species V at cell (i,j), step t
   Du = 0.21          — diffusion coefficient of U (how fast U spreads spatially)
   Dv = 0.105         — diffusion coefficient of V (Du = 2·Dv enables Turing instability)
   F ∈ [0.01, 0.08]   — feed rate (replenishes U from an external reservoir; higher F
-                        means faster substrate renewal)
+                        means faster U renewal)
   k ∈ [0.04, 0.07]   — kill rate (removes V from the system; controls pattern type)
   ∇²                 — Laplacian operator (spatial second derivative, approximated
                         by the 5-point stencil L)
@@ -512,7 +512,7 @@ Physarum-inspired algorithms have since been applied to:
 
 - **Network design** — telecommunications, road planning
 - **Combinatorial optimization** — approximate solutions to NP-hard problems
-- **Unconventional computing** — using actual slime mold as a computational substrate
+- **Unconventional computing** — using actual slime mold as a computing medium
 
 ---
 
